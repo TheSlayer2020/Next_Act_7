@@ -1,0 +1,26 @@
+/* styles/global.css */
+body {
+    
+  background: red;
+  animation: mymove 5s infinite;
+
+}
+
+@keyframes mymove {
+  0%   {background-color: red;}
+25%  {background-color: lightseagreen;}
+50%  {background-color: blue;}
+100% {background-color: green;}
+}
+
+.nav1 {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.txt {
+  color: blue;
+  background-color: blue;
+}

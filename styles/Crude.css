@@ -1,0 +1,131 @@
+div {
+    background-color: none;
+    justify-content: center;
+}
+
+nav {
+    @media (max-width: 768px) {
+        /* CSS for smaller screens */
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    }
+}
+
+#Search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: none;
+  }
+  
+  #txtname  {
+    width: calc(100% - 20px); /* Adjust the width and subtract padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    background-color: #ffffff;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
+  #txtcolor {
+    width: calc(100% - 20px); /* Adjust the width and subtract padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    background-color: rgb(250, 250, 250);
+    border-radius: 15px;
+    font-weight: bold;
+  }
+  
+  #SearchBar {
+    width: calc(100% - 20px); /* Adjust the width and subtract padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    background-color: rgb(247, 247, 248);
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
+  button {
+    width: calc(100% - 20px); /* Adjust the width and subtract padding */
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    #txtname, #txtcolor, #SearchBar {
+      width: 100%; /* Adjust the width for smaller screens */
+    }
+  
+    button {
+      width: 100%; /* Adjust the width for smaller screens */
+    }
+  }
+  
+#Ela {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px; /* Set a maximum height for scrollability */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+  }
+  
+  #Ela div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #fffffa; /* Optional: Add a border between rows */
+  }
+  
+  #Ela div:last-child {
+    border: none; /* Remove border for the last row */
+  }
+  
+  #op1, #op2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bolder;
+  }
+
+   #op2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bolder;
+  }
+  
+  #cell button {
+    margin: 10px;
+    border-radius: 90%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  #edit {
+    background-color: aqua;
+    color: #000000;
+    
+  }
+  
+  #delete {
+    background-color: rgb(226, 35, 51);
+    color: #ffffff;
+  }
